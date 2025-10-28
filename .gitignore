@@ -1,0 +1,40 @@
+﻿# ========== SECRETS ==========
+.env
+backend/.env
+topspot/.env
+*.key
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+*.pem
+
+# ========== HEAVY DEPENDENCIES ==========
+node_modules/
+backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ========== EXPO / REACT-NATIVE ==========
+.expo/
+.expo-device.json
+expo-env.d.ts
+dist/
+web-build/
+*.orig.*
+.android/
+.kotlin/
+metro-health-check*
+
+# ========== DEBUG & BUILD ==========
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+
+# ========== LOCAL OVERRIDES ==========
+.env*.local
